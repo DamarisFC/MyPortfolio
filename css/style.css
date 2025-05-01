@@ -367,7 +367,7 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
-
+/*service*/
 .service{
     background: var(--bg-color);
     color: black;
@@ -423,5 +423,75 @@ span{
     max-block-size: 100px;
     line-height: 1.7;
     margin: auto;
-    
+
+}
+/*testemunha*/
+
+.testimonials {
+    background: var(--second-bg-color);
+}
+
+.testimonials .heading {
+    margin-bottom: 5rem;
+}
+
+.testimonials-box {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.testimonials-item {
+    min-height: 550px;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgba(238, 238, 238, 0.2);
+    border-radius: 2rem;
+    margin: 0 2rem;
+    padding: 30px 60px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.testimonials-item:hover {
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.testimonials-item h2 {
+    font-size: 2.8rem;
+}
+
+.testimonials-item p {
+    font-size: 1.3rem;
+}
+
+.star {
+    color: gold;
+    font-size: 2rem;
+}
+
+.testimonials-item img {
+    width: 150px; /* ajuste conforme necessário */
+    height: 150px; /* opcional */
+    object-fit: cover;
+    border: 3px solid var(--main-color);
+    border-radius: 50%; /* deixa a imagem redonda como o card */
+    box-shadow: 0 0 25px var(--main-color); /* igual ao card */
 }
