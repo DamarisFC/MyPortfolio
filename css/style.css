@@ -488,10 +488,9 @@ span{
 }
 
 .testimonials-item img {
-    width: 150px; /* ajuste conforme necessário */
-    height: 150px; /* opcional */
+    width: 150px; 
+    height: 150px; 
     object-fit: cover;
     border: 3px solid var(--main-color);
-    border-radius: 50%; /* deixa a imagem redonda como o card */
-    box-shadow: 0 0 25px var(--main-color); /* igual ao card */
-}
+    border-radius: 50%; 
+    box-shadow: 0 0 25px var(--main-color);}
