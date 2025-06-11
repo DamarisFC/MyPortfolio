@@ -521,7 +521,8 @@ span{
     flex-wrap: wrap;
 }
 
-.contact form .input-box input,.contact form textarea{
+.contact form .input-box input,
+.contact form textarea{
     width: 100%;
     padding: 2.5rem;
     font-size: 1.8rem;
@@ -533,7 +534,7 @@ span{
     resize: none;
 }
 
-.contact form ,btn{
+.contact form .btn{
     margin-top: 2rem;
 }
 
@@ -565,7 +566,7 @@ span{
     transition: 0.3s ease-in-out;
 }
 
-.footer.social a:hover{
+.footer .social a:hover{
     transform: scale(1.2)translateY(-10px);
     background-color: var(--main-color);
     color: black;
@@ -579,4 +580,49 @@ span{
     line-height: 1.6;
     margin-bottom: 0;
     text-align: center;
+}
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+@media(max-width:1285px){
+    html{
+        font-size: 55%;
+    }
+
+.services-container{
+    padding-bottom: 7rem;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 5rem;
+    }
+}
+
+@madia(max-width:911px){
+    header{
+        padding: 2rem 3%;
+    }
+section{
+    padding
+}
+
+
 }
